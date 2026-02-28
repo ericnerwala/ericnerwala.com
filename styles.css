@@ -1,14 +1,17 @@
 :root {
-  --bg: #f1eeeb;
+  --bg: #e7dfd2;
   --ink: #1f2a3e;
   --muted: #5a6575;
-  --line: #d9d4cf;
+  --line: #cfc5b6;
 }
 
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 12% 0%, #efe6d8 0%, transparent 28%),
+    radial-gradient(circle at 88% 12%, #ddd2c2 0%, transparent 24%),
+    var(--bg);
   color: var(--ink);
   font-family: Inter, system-ui, sans-serif;
 }
