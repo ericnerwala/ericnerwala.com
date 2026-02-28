@@ -232,6 +232,15 @@ p {
   color: var(--muted);
 }
 
+.mini-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
 .module-list {
   margin-top: 1.2rem;
   border-top: 1px solid var(--line);
