@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #090d14;
+}
+
+#gl-scene,
+#fx-scene {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  display: block;
+}
+
+#fx-scene {
+  pointer-events: none;
+}
+
+#gl-scene {
+  cursor: default;
+}
